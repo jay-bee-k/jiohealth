@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a44d6bed-2f17-4e8c-a7ac-c08a0dccf083" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lRzhMCqQFTddazi1WmD6DDm0xP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/xampp/htdocs/vieclam.vuu.vn" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MyPC\Desktop\binh\jiohealth" />
+      <recent name="C:\Users\MyPC\Desktop\binh\jiohealth\assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a44d6bed-2f17-4e8c-a7ac-c08a0dccf083" name="Default Changelist" comment="" />
+      <created>1607574809542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607574809542</updated>
+      <workItem from="1607574810710" duration="508000" />
+      <workItem from="1607575345674" duration="868000" />
+      <workItem from="1607593255147" duration="2729000" />
+      <workItem from="1607605857623" duration="5795000" />
+      <workItem from="1607649125149" duration="261000" />
+      <workItem from="1607681470244" duration="607000" />
+      <workItem from="1607689356865" duration="370000" />
+      <workItem from="1607693467371" duration="2261000" />
+      <workItem from="1607735693188" duration="57000" />
+      <workItem from="1607739380055" duration="601000" />
+      <workItem from="1607765869154" duration="8578000" />
+      <workItem from="1607825148910" duration="5699000" />
+      <workItem from="1607841949434" duration="7010000" />
+      <workItem from="1607859191024" duration="11382000" />
+      <workItem from="1607908232425" duration="665000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/assets/plugins/theme-script.js</url>
+          <line>57</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

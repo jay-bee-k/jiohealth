@@ -1,0 +1,161 @@
+// Flex
+@mixin flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+@mixin flex-inline {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex
+}
+
+@mixin flex-direction($direction: column) {
+	-ms-flex-direction: $direction;
+	flex-direction: $direction
+}
+
+@mixin xy-position($vertical, $horizontal) {
+	@include flex;
+	-webkit-box-align: $vertical;
+	-ms-flex-align: $vertical;
+	align-items: $vertical;
+	-webkit-box-pack: $horizontal;
+	-ms-flex-pack: $horizontal;
+	justify-content: $horizontal;
+}
+
+@mixin xy-position-inline($vertical, $horizontal) {
+	@include flex-inline;
+	-webkit-box-align: $vertical;
+	-ms-flex-align: $vertical;
+	align-items: $vertical;
+	-webkit-box-pack: $horizontal;
+	-ms-flex-pack: $horizontal;
+	justify-content: $horizontal;
+}
+
+
+@mixin flex-width($width) {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 $width;
+	flex: 0 0 $width;
+	width: $width;
+}
+
+// Position centen top - left
+@mixin top-left-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+// pseudo before, after
+@mixin pseudo($display: block, $pos: absolute, $content: '') {
+	content: $content;
+	display: $display;
+	position: $pos;
+}
+
+// css-triangle
+@mixin css-triangle($color, $direction, $size: 6px, $position: absolute) {
+	@include pseudo($pos: $position);
+	width: 0;
+	height: 0;
+	@if $direction == down {
+		border-left: $size solid transparent;
+		border-right: $size solid transparent;
+		border-top: $size solid $color;
+		margin-top: 0 - round( $size / 2.5 );
+	} @else if $direction == up {
+		border-left: $size solid transparent;
+		border-right: $size solid transparent;
+		border-bottom: $size solid $color;
+		margin-bottom: 0 - round( $size / 2.5 );
+	} @else if $direction == right {
+		border-top: $size solid transparent;
+		border-bottom: $size solid transparent;
+		border-left: $size solid $color;
+		margin-right: -$size;
+	} @else if $direction == left {
+		border-top: $size solid transparent;
+		border-bottom: $size solid transparent;
+		border-right: $size solid $color;
+		margin-left: -$size;
+	}
+}
+
+@mixin transition($prop) {
+	-webkit-transition: $prop;
+	-o-transition: $prop;
+	transition: $prop;
+}
+
+@mixin transform($type) {
+	-webkit-transform: $type;
+	-moz-transform: $type;
+	-o-transform: $type;
+	-ms-transform: $type;
+	transform: $type;
+}
+
+// box-shadow
+
+@mixin b-shadow($value) {
+	-webkit-box-shadow: $value;
+	box-shadow: $value;
+}
+
+// Text line
+
+@mixin text-line($value) {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: $value;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+
+@mixin backgroundImage($repeat:no-repeat, $position:center, $size:cover) {
+	background-repeat: $repeat;
+	background-position: $position;
+	background-size: $size;
+}
+
+@mixin backgroundGradient($color1: darken($color-main, 5%), $color2: darken($color-main, 15%),$direction: to right) {
+	background: $color1;
+	background: -webkit-linear-gradient($direction, $color1, $color2);
+	background: linear-gradient($direction, $color1, $color2);
+}
+
+@mixin pr {
+	position: relative;
+}
+
+@mixin pa {
+	position: absolute;
+}
+
+@mixin pf {
+	position: fixed;
+}
+
+@mixin ps {
+	position: sticky;
+}
+
+@mixin circle {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+@mixin list-unstyled {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style-type: none;
+}

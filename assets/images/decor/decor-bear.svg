@@ -1,0 +1,35 @@
+<svg width="202" height="202" viewBox="0 0 202 202" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="101" cy="101" r="101" fill="url(#paint0_linear)"/>
+<g filter="url(#filter0_d)">
+<circle cx="101" cy="101" r="56.1111" fill="white"/>
+</g>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="67" y="67" width="68" height="68">
+<rect x="67.3333" y="67.3334" width="67.3333" height="67.3333" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M86.7059 100.444L74.0233 107.36C71.6637 108.647 70.7178 111.551 71.867 113.981C72.891 116.146 75.2898 117.299 77.6202 116.747L86.5552 114.631L85.0338 123.438C85.0338 123.438 90.3587 129.947 101.009 129.947C111.658 129.947 116.98 123.438 116.98 123.438L115.462 114.631L124.397 116.747C126.727 117.299 129.126 116.146 130.15 113.981C131.299 111.551 130.353 108.647 127.994 107.36L115.313 100.445C111.827 104.446 106.711 106.972 101.01 106.972C95.3076 106.972 90.1915 104.446 86.7059 100.444Z" fill="#E7C2A7"/>
+<ellipse cx="101.01" cy="118.46" rx="6.84632" ry="8.42427" fill="#E9CEBA"/>
+<ellipse rx="6.84943" ry="9.186" transform="matrix(0.965487 0.26045 -0.257197 0.966359 110.144 125.352)" fill="#C79978"/>
+<ellipse rx="6.84943" ry="9.186" transform="matrix(0.965487 -0.26045 0.257197 0.966359 91.8765 125.353)" fill="#C79978"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M116.579 84.2071C118.671 82.6363 120.026 80.1254 120.026 77.2958C120.026 72.5374 116.195 68.6801 111.468 68.6801C108.657 68.6801 106.163 70.0445 104.603 72.1513C103.448 71.8842 102.246 71.743 101.01 71.743C99.7738 71.743 98.5701 71.8844 97.4144 72.1521C95.8543 70.045 93.3597 68.6804 90.5485 68.6804C85.8221 68.6804 81.9906 72.5378 81.9906 77.2961C81.9906 80.1271 83.3469 82.6392 85.4409 84.2098C85.1757 85.372 85.0355 86.5824 85.0355 87.8257C85.0355 96.7079 92.1877 103.908 101.01 103.908C109.833 103.908 116.985 96.7079 116.985 87.8257C116.985 86.5814 116.845 85.3702 116.579 84.2071Z" fill="#E7C2A7"/>
+<ellipse cx="106.713" cy="84.3799" rx="2.28211" ry="3.44629" fill="#4A4A4A"/>
+<ellipse cx="95.3031" cy="84.3799" rx="2.28211" ry="3.44629" fill="#4A4A4A"/>
+<ellipse cx="101.015" cy="92.0383" rx="8.36772" ry="8.04135" fill="#E9CEBA"/>
+<ellipse cx="101.01" cy="88.9744" rx="2.28211" ry="2.29753" fill="#C79978"/>
+</g>
+<defs>
+<filter id="filter0_d" x="33.6666" y="35.9109" width="134.667" height="134.667" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="2.24444"/>
+<feGaussianBlur stdDeviation="5.61111"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.667798 0 0 0 0 0.732003 0 0 0 0 0.899563 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear" x1="-32.8837" y1="31.7093" x2="267.767" y2="149.151" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D4EFFF"/>
+<stop offset="1" stop-color="#D4E0FF" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
